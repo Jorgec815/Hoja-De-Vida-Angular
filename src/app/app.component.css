@@ -1,0 +1,22 @@
+.titulo .Background{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://fondosmil.com/fondo/11112.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.titulo .Foto{
+    width: 100%;
+    height: 300px;
+}
+
+hr{
+    margin-top: 5%;
+    height: 3px;
+}
+
+.info{
+    width: 100%;
+}

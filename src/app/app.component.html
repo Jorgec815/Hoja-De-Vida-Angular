@@ -1,0 +1,31 @@
+<div class="titulo">
+    <div class="Background">
+
+    </div>
+    <div class="Foto">
+        <app-foto-con-nombre></app-foto-con-nombre>
+    </div>
+    
+</div>
+<hr>
+
+<div class="info">
+    <div class="row">
+        <div class="col-md-3 col-sm-3">
+          <app-card [datos]=datos.nombre></app-card>
+        </div>
+        
+        <div class="col-md-3 col-sm-3">
+            <app-card [datos]=datos.codigo></app-card>
+        </div>
+
+        <div class="col-md-3 col-sm-3">
+            <app-card [datos]=datos.contacto></app-card>
+        </div>
+
+        <div class="col-md-3 col-sm-3">
+            <app-card [datos]=datos.pasatiempos></app-card>
+        </div>
+    </div>
+</div>
+

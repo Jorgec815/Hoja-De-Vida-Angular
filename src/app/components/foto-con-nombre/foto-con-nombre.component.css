@@ -1,0 +1,45 @@
+.content{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.content .p1{
+    text-align: center;
+    margin-top: 150px;
+    color: #141414;
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+    font-size: 65px;
+}
+
+.content .p2{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #141414;
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+
+.image{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+
+
+.image img{
+    width: 250px;
+    height: 250px;
+}
